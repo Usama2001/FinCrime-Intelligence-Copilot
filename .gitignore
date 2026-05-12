@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Data and output
+data/raw/
+data/processed/
+models/
+vector_db/
+
+# Reports and figures
+reports/figures/
+
+# VSCode settings
+.vscode/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Misc
+.DS_Store
+Thumbs.db
