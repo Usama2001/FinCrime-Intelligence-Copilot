@@ -1,0 +1,49 @@
+FinCrime Intelligence Copilot - Data Quality Summary
+============================================================
+
+Raw Dataset Shape:
+(3000, 19)
+
+Cleaned Dataset Shape:
+(3000, 20)
+
+Missing Values After Cleaning:
+case_id                             0
+customer_id                         0
+transaction_amount                  0
+transaction_count_7d                0
+avg_transaction_amount_30d          0
+high_risk_country_flag              0
+cash_deposit_count_30d              0
+international_transfer_count_30d    0
+previous_alert_count                0
+account_age_days                    0
+rapid_movement_flag                 0
+structuring_flag                    0
+unusual_time_flag                   0
+customer_risk_rating                0
+transaction_channel                 0
+transaction_type                    0
+case_note                           0
+risk_score                          0
+suspicious_flag                     0
+case_note_cleaned                   0
+dtype: int64
+
+Duplicate Rows After Cleaning:
+0
+
+Target Distribution:
+suspicious_flag
+0    2658
+1     342
+Name: count, dtype: int64
+
+Target Distribution Percentage:
+suspicious_flag
+0    88.6
+1    11.4
+Name: proportion, dtype: float64
+
+Column List:
+['case_id', 'customer_id', 'transaction_amount', 'transaction_count_7d', 'avg_transaction_amount_30d', 'high_risk_country_flag', 'cash_deposit_count_30d', 'international_transfer_count_30d', 'previous_alert_count', 'account_age_days', 'rapid_movement_flag', 'structuring_flag', 'unusual_time_flag', 'customer_risk_rating', 'transaction_channel', 'transaction_type', 'case_note', 'risk_score', 'suspicious_flag', 'case_note_cleaned']
